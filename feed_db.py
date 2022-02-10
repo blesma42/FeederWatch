@@ -1,3 +1,8 @@
+#This file will read all .csv in a specific folder and pass them to a database.
+#Because of the large file size, they are processed chunk-wise
+#Because this may take some time it will print out the progress
+#After all files are processed it'll also return the number of rows per file and number of chunks as control 
+
 import pandas as pd
 import json
 from sqlalchemy import create_engine
