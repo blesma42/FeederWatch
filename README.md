@@ -39,4 +39,5 @@ Finally the data will be visualized and analyzed with Tableau.
 | ------------- | ------------- |
 | [README.md](README.md)  | Project Description  |
 | [feed_db.py](feed_db.py)  | Script, which passes the .csv files provided by Project FeederWatch to a database for further processing  |
-|[cleaning_transformation.ipynb](cleaning_transformation.ipynb)| Cleaning and transformation of the data for further analysis |
+|[merge_tables.ipynb](merge_tables.ipynb)| merging tables with data from different years into one |
+| [cleaning.ipynb](cleaning.ipynb) | cleaning and transformation of the data |
