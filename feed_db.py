@@ -8,7 +8,6 @@ import json
 from sqlalchemy import create_engine
 import os
 
-
 #get credentials for MySQL/dbms
 with open(r'C:\Users\mathi\Desktop\Datenanalyse\Credentials\mysql.json') as json_file:
     db_credentials = json.load(json_file)['MySQL']

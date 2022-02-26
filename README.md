@@ -28,12 +28,18 @@ Because also information about the observation site are given, additional questi
 ### Data Sources and Processing
 
 The [Raw Data](https://feederwatch.org/explore/raw-dataset-requests/) was downloaded from the Project FeederWatch page for all availible years (1988-2021). Because of the large amount of entrys (in total over 30 million rows) the files were read and passed to a database by a [python script](feed_db.py).
+
 <br/>
-In the next step, the differnt tables were merged into one large with a [jupyter file](merge_tables.ipynb).
+
+In the next step, the different tables were merged into one large with a [jupyter file](merge_tables.ipynb).
+
 <br/>
+
 Then the data will be cleaned with another [jupyter file](cleaning.ipynb)
+
 <br/>
-Finally the data will be visualized and analyzed with Tableau and python.
+
+Finally the data will be visualized and analyzed with  python.
 
 ### Project Files
 
